@@ -49,7 +49,13 @@ We use country, description, price, points,province,region_1,variety and title f
                 "weissburgunder"--> "Chardonnay"
                 "spatburgunder" --> "pinot noir"
                 "grauburgunder" --> "pinot gris"
+                
+  ![](images/DataExploration1.PNG)
+ 
 Evidently there is an imbalance in the dataset,so top 10 varieties were choosen for our analysis. So, finally we are left with a dataset with  20944 rows where we split the dataset into 7:3 ratio i.e. trainDataset size=14663 and test Dataset size=6281.
+ 
+ ![](images/DataExploration.PNG)
+ 
 
 ## Text Preprocessing
 Cleaning Text
@@ -117,9 +123,31 @@ Hence Macro average is preferable  to evaluate our models considering the above 
         3.	Weighted Recall: Averaged Number of items correctly identified as positive out of the total actual positives.
         4.	Weighted F1: The harmonic average of the precision and recall, it measures the effectiveness of identification when just as much importance is given to recall as to precision .
 
+## FLOW DIAGRAM
+ ![](images/FlowDiagram.PNG)
+
 ## HYPERPARAMETER TUNING
 For tuning our models we used Cross-Validation technique.
 Cross-Validation: CrossValidator begins by splitting the dataset into a set of folds which are used as separate training and test datasets. To evaluate a particular ParamMap, CrossValidator computes the average evaluation metric for the 3 Models produced by fitting the Estimator on the 3 different (training, test) dataset pairs provided number of folds=3.
+
+## RESULTS
+
+ ![](images/ResultsLogsitic.PNG)
+ 
+ ![](images/ConfusionMatrixLogsitic.PNG)
+ 
+ ![](images/ResultsXgBoost.PNG)
+ 
+ ![](images/ConfusionMatrixXgBoost.PNG)
+ 
+ ![](images/ResultsSVC.PNG)
+ 
+ ![](images/ConfusionMatrixSVC.PNG)
+ 
+ 
+
+![](images/FinalResults.PNG)
+ 
 
 
 
