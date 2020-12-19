@@ -1,6 +1,6 @@
 # Prediction of Wine Variety using NLP
 
-## INTORDUCTION
+## INTRODUCTION
 
 ## Natural language Processing
 Natural language processing is branch of artificial intelligence that helps computers understand, interpret and manipulate human language. It aims to fill the gap between human communication and computer understanding.
